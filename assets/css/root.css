@@ -1,0 +1,269 @@
+:root {
+    /* colors */
+    --color-primary: #ffff;
+    --color-black: #040404;
+    --color-lightgrey: #C6C6C6;
+
+    /* font-size */
+    --fs-16: 10px;
+    --fs-20: 20px;
+    --fs-56: 22px;
+    --fs-64: 22px;
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+    /* line-height */
+    --line-height-108: 108.687%;
+    --line-height-180: 180%;
+    --line-height-150:150%
+
+}
+
+.color-white {
+    color: var(--color-primary);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-lightgrey {
+    color: var(--color-lightgrey);
+}
+
+.bg-black {
+    background: var(--color-black);
+}
+
+.bg-white {
+    background: var(--color-primary);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-56 {
+    font-size: var(--fs-56);
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.lh-108 {
+    line-height: var(--line-height-108);
+}
+
+.lh-180 {
+    line-height: var(--line-height-180);
+}
+.lh-150{
+    line-height: var(--line-height-150);
+}
+.pr-35 {
+    padding-right: 0px;
+}
+
+.pr-165 {
+    padding-right: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.pb-40 {
+    padding-bottom: 20px;
+}
+.ps-22{
+    padding-left: 18px;
+}
+.pe-37{
+    padding-right: 37px;
+}
+.w-482{
+    width: 302px;
+}
+.w-550{
+    width: 352px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.pt-24{
+    padding-top: 24px;
+}
+.mx-29{
+    margin-right: 14px;
+    margin-left: 14px;
+}
+.-mr-38 {
+    margin-right: -20px;
+}
+
+
+
+@media (min-width:576px) {
+      :root {
+          /* colors */
+          --color-primary: #ffff;
+          --color-black: #040404;
+          --color-lightgrey: #C6C6C6;
+
+          /* font-size */
+          --fs-16: 12px;
+          --fs-20: 20px;
+          --fs-56: 42px;
+          --fs-64: 32px;
+
+          /* font-weight */
+          --fw-300: 300;
+          --fw-400: 400;
+          --fw-500: 500;
+          --fw-700: 700;
+
+          /* line-height */
+          --line-height-108: 108.687%;
+          --line-height-180: 180%;
+
+      }
+      .pr-165{
+        padding-right: 0px;
+      }
+      .pr-35{
+        padding-right: 20px;
+      }
+      .w-550 {
+          width: 550px;
+      }
+      .w-482 {
+          width: 482px;
+      }
+      .-mr-38 {
+          margin-right: -38px;
+      }
+}
+@media (min-width:768px) {
+    :root {
+        /* colors */
+        --color-primary: #ffff;
+        --color-black: #040404;
+        --color-lightgrey: #C6C6C6;
+
+        /* font-size */
+        --fs-16: 16px;
+        --fs-20: 20px;
+        --fs-56: 42px;
+        --fs-64: 42px;
+
+        /* font-weight */
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-700: 700;
+
+        /* line-height */
+        --line-height-108: 108.687%;
+        --line-height-180: 180%;
+
+    }
+
+    .pr-35 {
+        padding-right: 80px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* colors */
+        --color-primary: #ffff;
+        --color-black: #040404;
+        --color-lightgrey: #C6C6C6;
+
+        /* font-size */
+        --fs-16: 14px;
+        --fs-20: 20px;
+        --fs-56: 56px;
+        --fs-64: 64px;
+
+        /* font-weight */
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-700: 700;
+
+        /* line-height */
+        --line-height-108: 108.687%;
+        --line-height-180: 180%;
+
+    }
+
+    .pr-35 {
+        padding-right: 45px;
+    }
+
+    .pr-165 {
+        padding-right: 165px;
+    }
+    .-mx-32 {
+        margin-left: -32px;
+        margin-right: -32px;
+    }
+    .-mr-38 {
+        margin-right: 0px;
+    }
+
+    
+}
+@media (min-width:1024px) {
+        :root {
+            /* colors */
+            --color-primary: #ffff;
+            --color-black: #040404;
+            --color-lightgrey: #C6C6C6;
+
+            /* font-size */
+            --fs-16: 16px;
+            --fs-20: 20px;
+            --fs-56: 56px;
+            --fs-64: 64px;
+
+            /* font-weight */
+            --fw-300: 300;
+            --fw-400: 400;
+            --fw-500: 500;
+            --fw-700: 700;
+
+            /* line-height */
+            --line-height-108: 108.687%;
+            --line-height-180: 180%;
+
+        }
+}
+

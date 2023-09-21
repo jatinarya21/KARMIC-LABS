@@ -1,0 +1,29 @@
+.blur-circle1{
+    top: -30%;
+    left: -33%;
+}
+.blur-circle2{
+        bottom: 25%;
+    right: -80%;
+}
+
+.btn-read:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-read::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background: black;
+    width: 0;
+    height: 100px;
+    transition: all 500ms;
+    z-index: -1;
+}
+
+.btn-read:hover::after {
+    width: 100%;
+}

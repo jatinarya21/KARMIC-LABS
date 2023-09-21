@@ -19,12 +19,15 @@ p {
 h1 {
     margin-bottom: 0 !important;
 }
-#Preloader{
+
+#Preloader {
     z-index: 9;
 }
+
 .Btn-top {
     transform: rotate(180deg);
 }
+
 #myBtn {
     display: none;
     position: fixed;
@@ -44,10 +47,12 @@ h1 {
 #myBtn:hover {
     background-color: #555;
 }
-#loader-arrow{
+
+#loader-arrow {
     height: 25px;
     width: 25px;
 }
+
 .bg-line {
     background: url(/assets/images/png/bg-lines.png);
 }
@@ -593,23 +598,9 @@ h1 {
     transform: rotate(-2deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.hero-img{
+.hero-img {
     width: 100%;
 }
-
-
-
 
 @media (min-width:576px) {
     .hero-img {
@@ -632,7 +623,8 @@ h1 {
     .hero-arrow {
         display: block;
     }
-    .hero-img{
+
+    .hero-img {
         width: 100% !important;
     }
 

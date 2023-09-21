@@ -69,6 +69,7 @@ h1 {
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100% 100%;
 }
 
 .container-main {
@@ -246,6 +247,7 @@ h1 {
     width: 100%;
 }
 
+
 .hero-arrow {
     position: absolute;
     left: 76%;
@@ -280,7 +282,7 @@ h1 {
 .hover-line::before {
     content: '';
     position: absolute;
-    bottom: -18%;
+    bottom: -35%;
     right: 0;
     background: grey;
     width: 0%;
@@ -558,7 +560,7 @@ h1 {
     height: 1px;
     width: 140%;
     background: #040404;
-    transform: rotate(-2deg);
+    transform: rotate(-4deg);
 }
 
 .project-line::before {
@@ -569,7 +571,7 @@ h1 {
     height: 1px;
     width: 140%;
     background: #040404;
-    transform: rotate(-2deg);
+    transform: rotate(-3deg);
 }
 
 .about-line {

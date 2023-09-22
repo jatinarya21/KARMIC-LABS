@@ -5,10 +5,10 @@
     --color-lightgrey: #C6C6C6;
 
     /* font-size */
-    --fs-16: 10px;
+    --fs-16: 16px;
     --fs-20: 20px;
     --fs-56: 22px;
-    --fs-64: 22px;
+    --fs-64: 52px;
 
     /* font-weight */
     --fw-300: 300;
@@ -19,8 +19,7 @@
     /* line-height */
     --line-height-108: 108.687%;
     --line-height-180: 180%;
-    --line-height-150:150%
-
+    --line-height-150: 150%
 }
 
 .color-white {
@@ -82,9 +81,11 @@
 .lh-180 {
     line-height: var(--line-height-180);
 }
-.lh-150{
+
+.lh-150 {
     line-height: var(--line-height-150);
 }
+
 .pr-35 {
     padding-right: 0px;
 }
@@ -100,29 +101,37 @@
 .pb-40 {
     padding-bottom: 20px;
 }
-.ps-22{
+
+.ps-22 {
     padding-left: 18px;
 }
-.pe-37{
+
+.pe-37 {
     padding-right: 37px;
 }
-.w-482{
+
+.w-482 {
     width: 302px;
 }
-.w-550{
+
+.w-550 {
     width: 352px;
 }
-.py-12{
+
+.py-12 {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.pt-24{
-    padding-top: 24px;
+
+.pt-24 {
+    padding-top: 0px;
 }
-.mx-29{
+
+.mx-29 {
     margin-right: 14px;
     margin-left: 14px;
 }
+
 .-mr-38 {
     margin-right: -20px;
 }
@@ -130,45 +139,51 @@
 
 
 @media (min-width:576px) {
-      :root {
-          /* colors */
-          --color-primary: #ffff;
-          --color-black: #040404;
-          --color-lightgrey: #C6C6C6;
+    :root {
+        /* colors */
+        --color-primary: #ffff;
+        --color-black: #040404;
+        --color-lightgrey: #C6C6C6;
 
-          /* font-size */
-          --fs-16: 12px;
-          --fs-20: 20px;
-          --fs-56: 42px;
-          --fs-64: 32px;
+        /* font-size */
+        --fs-16: 12px;
+        --fs-20: 20px;
+        --fs-56: 42px;
+        --fs-64: 42px;
 
-          /* font-weight */
-          --fw-300: 300;
-          --fw-400: 400;
-          --fw-500: 500;
-          --fw-700: 700;
+        /* font-weight */
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-700: 700;
 
-          /* line-height */
-          --line-height-108: 108.687%;
-          --line-height-180: 180%;
+        /* line-height */
+        --line-height-108: 108.687%;
+        --line-height-180: 180%;
 
-      }
-      .pr-165{
+    }
+
+    .pr-165 {
         padding-right: 0px;
-      }
-      .pr-35{
+    }
+
+    .pr-35 {
         padding-right: 20px;
-      }
-      .w-550 {
-          width: 550px;
-      }
-      .w-482 {
-          width: 482px;
-      }
-      .-mr-38 {
-          margin-right: -38px;
-      }
+    }
+
+    .w-550 {
+        width: 550px;
+    }
+
+    .w-482 {
+        width: 482px;
+    }
+
+    .-mr-38 {
+        margin-right: -20px;
+    }
 }
+
 @media (min-width:768px) {
     :root {
         /* colors */
@@ -180,7 +195,7 @@
         --fs-16: 16px;
         --fs-20: 20px;
         --fs-56: 42px;
-        --fs-64: 46px;
+        --fs-64: 64px;
 
         /* font-weight */
         --fw-300: 300;
@@ -231,39 +246,45 @@
     .pr-165 {
         padding-right: 165px;
     }
+
     .-mx-32 {
         margin-left: -32px;
         margin-right: -32px;
     }
+
     .-mr-38 {
         margin-right: 0px;
     }
 
-    
+    .pt-24 {
+        padding-top: 24px;
+    }
+
+
 }
+
 @media (min-width:1024px) {
-        :root {
-            /* colors */
-            --color-primary: #ffff;
-            --color-black: #040404;
-            --color-lightgrey: #C6C6C6;
+    :root {
+        /* colors */
+        --color-primary: #ffff;
+        --color-black: #040404;
+        --color-lightgrey: #C6C6C6;
 
-            /* font-size */
-            --fs-16: 16px;
-            --fs-20: 20px;
-            --fs-56: 56px;
-            --fs-64: 64px;
+        /* font-size */
+        --fs-16: 16px;
+        --fs-20: 20px;
+        --fs-56: 56px;
+        --fs-64: 64px;
 
-            /* font-weight */
-            --fw-300: 300;
-            --fw-400: 400;
-            --fw-500: 500;
-            --fw-700: 700;
+        /* font-weight */
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-700: 700;
 
-            /* line-height */
-            --line-height-108: 108.687%;
-            --line-height-180: 180%;
+        /* line-height */
+        --line-height-108: 108.687%;
+        --line-height-180: 180%;
 
-        }
+    }
 }
-
